@@ -40,6 +40,7 @@ export default class DocumentParser implements IDocumentParser {
                     heading: currentDiv.text().trim(),
                     items: []
                 }
+                workingItems = [];
             }
             // Check if note heading
             if (currentDiv.attr('class') == DivSectionsEnum.noteHeading) {
