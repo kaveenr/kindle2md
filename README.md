@@ -8,6 +8,8 @@ Export Kindle HTML notebooks to markdown
 [![Downloads/week](https://img.shields.io/npm/dw/kindle2md.svg)](https://npmjs.org/package/kindle2md)
 [![License](https://img.shields.io/npm/l/kindle2md.svg)](https://github.com/kaveenr/kindle2md/blob/master/package.json)
 
+<img width="1650" alt="Screenshot 2021-06-01 at 1 57 24 PM" src="https://user-images.githubusercontent.com/3103970/120291796-5423e200-c2e1-11eb-9470-144674dc1e14.png">
+
 ## CLI Usage
 ```
 ➜  ~ npx kindle2md -h
