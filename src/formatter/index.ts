@@ -1,4 +1,3 @@
-import { INotebookFormatter } from "./INotebookFormatter";
 import NotebookFormatter from "./NotebookFormatter";
 
 const DEFAULT_TEMPLATE = `
@@ -19,7 +18,6 @@ const DEFAULT_TEMPLATE = `
 `;
 
 export {
-    INotebookFormatter,
     NotebookFormatter,
     DEFAULT_TEMPLATE
 }

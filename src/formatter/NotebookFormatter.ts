@@ -1,6 +1,6 @@
 import { TemplateDelegate, compile } from "handlebars";
-import { KindleNotebook } from "../parser/models";
-import { INotebookFormatter } from "./INotebookFormatter";
+import { INotebookFormatter } from "../core/fomatter";
+import { KindleNotebook, } from "../core/parser";
 
 export default class NotebookFormatter implements INotebookFormatter {
 

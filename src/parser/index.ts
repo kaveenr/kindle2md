@@ -1,7 +1,5 @@
-import DocumentParser from "./DocumentParser";
-import IDocumentParser from "./IDocumentParser";
+import NotebookParser from "./NotebookParser";
 
 export {
-    IDocumentParser,
-    DocumentParser
+    NotebookParser as DocumentParser
 }

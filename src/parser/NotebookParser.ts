@@ -1,8 +1,8 @@
 import { load } from "cheerio";
-import IDocumentParser from "./IDocumentParser";
-import { DivSectionsEnum, KindleNotebook, KindleNotebookHighlightItem, KindleNotebookSections } from "./models";
+import { KindleNotebook, KindleNotebookHighlightItem, KindleNotebookSections, IDocumentParser } from "../core/parser";
+import { DivSectionsEnum } from "./models";
 
-export default class DocumentParser implements IDocumentParser {
+export default class NotebookParser implements IDocumentParser {
 
     async parseDocument(htmlContent: string): Promise<KindleNotebook> {
         const $ = load(htmlContent);
